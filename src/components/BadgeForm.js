@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./styles/BadgeForm.css";
+
 class BadgeForm extends React.Component {
   state = {};
 
@@ -11,10 +13,6 @@ class BadgeForm extends React.Component {
   //   };
   handleClick = e => {
     console.log("click");
-  };
-  handleSubmit = e => {
-    e.preventDefault();
-    console.log(this.state);
   };
 
   render() {
@@ -69,10 +67,14 @@ class BadgeForm extends React.Component {
               value={this.props.formValues.twitter}
             />
           </div>
-
-          <button onClick={this.handleClick} className="btn btn-primary">
-            Save
-          </button>
+          <div className="lastRow">
+            <button onClick={this.props.onSubmit} className="btn btn-primary">
+              Save
+            </button>
+            {this.props.error && (
+              <p className="text-error">{this.props.error.message}</p>
+            )}
+          </div>
         </form>
       </div>
     );

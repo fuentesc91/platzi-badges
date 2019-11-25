@@ -1,0 +1,47 @@
+.Home {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  background: url("../../images/stars.svg") #000;
+  padding-top: 80px;
+}
+
+.Home__container {
+  height: 100%;
+}
+
+.Home__conf {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  color: white;
+}
+
+.Home__conf img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.Home__conf h1 {
+  font-size: 1.8em;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.Home__conf span {
+  padding-bottom: 10px;
+}
+
+.Home__astronauts {
+  display: flex;
+  padding: 0 100px;
+}
+
+.Home__astronauts img {
+  width: 100%;
+  max-width: 600px;
+}

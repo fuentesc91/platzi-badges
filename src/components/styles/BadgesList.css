@@ -1,0 +1,36 @@
+.BadgesList {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.BadgesList__img {
+  padding-right: 30px;
+}
+
+.BadgesList__img img {
+  border-radius: 50%;
+}
+
+.BadgesList__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: left;
+}
+
+.BadgesList__twitter {
+  color: #00acee;
+}
+
+.BadgesList__twitter::before {
+  content: url("../../images/twitter.png");
+  position: relative;
+  top: 10px;
+  margin-right: 5px;
+}
