@@ -1,4 +1,4 @@
-.BadgesList {
+.BadgesListItem {
   display: flex;
   flex-direction: row;
   max-width: 500px;

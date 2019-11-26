@@ -46,14 +46,6 @@
       "avatarUrl": "https://www.gravatar.com/avatar/00e35de53a06a655fe5b6ac8b96bdb84?d=identicon"
     },
     {
-      "firstName": "Carlos",
-      "lastName": "Fuentes",
-      "email": "fuentesc91@gmail.com",
-      "jobTitle": "Engiennier",
-      "twitter": "fuentesc91",
-      "id": "W6wHjrh"
-    },
-    {
       "firstName": "Richard",
       "lastName": "Kaufman",
       "email": "richardbkaufman@gmail.com",
@@ -65,9 +57,17 @@
       "firstName": "Andrea",
       "lastName": "Loza",
       "email": "ab.lo@hotmail.com",
-      "jobTitle": "Tecnico Superior Universitario en Protesis Dental",
+      "jobTitle": "TSUPD",
       "twitter": "andrealoza_lml",
       "id": "wmR0mNo"
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Fuentes",
+      "email": "fuentesc91@gmail.com",
+      "jobTitle": "Engieneer",
+      "twitter": "fuentesc91",
+      "id": "HnXa9ck"
     }
   ]
 }
