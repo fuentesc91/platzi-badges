@@ -5,12 +5,6 @@ import "./styles/BadgeForm.css";
 class BadgeForm extends React.Component {
   state = {};
 
-  //   handleChange = e => {
-  //     // console.log({ name: e.target.name, value: e.target.value });
-  //     this.setState({
-  //       [e.target.name]: e.target.value
-  //     });
-  //   };
   handleClick = e => {
     console.log("click");
   };
@@ -18,7 +12,7 @@ class BadgeForm extends React.Component {
   render() {
     return (
       <div>
-        <h2>New Attendant</h2>
+        <h2>{this.props.tittle}</h2>
 
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Gravatar from "./Gravatar";
+import BadgesListItem from "./BadgesListItem";
 
 import { Link } from "react-router-dom";
 
@@ -24,18 +24,12 @@ class BadgesList extends React.Component {
         {this.props.badges.map(badge => {
           return (
             <li key={badge.id}>
-              <div className="BadgesList">
-                <div className="BadgesList__img">
-                  <Gravatar email={badge.email} alt="avatar" />
-                </div>
-                <div className="BadgesList__info">
-                  <span className="font-weight-bold">
-                    {badge.firstName} {badge.lastName}
-                  </span>
-                  <span className="BadgesList__twitter">@{badge.twitter}</span>
-                  <span>{badge.jobTitle}</span>
-                </div>
-              </div>
+              <Link
+                className="text-reset text-decoration-none"
+                to={`/badges/${badge.id}`}
+              >
+                <BadgesListItem badge={badge} />
+              </Link>
             </li>
           );
         })}

@@ -4,7 +4,7 @@
       "id": "250fe715-88d4-4c18-95e7-62a6a097803a",
       "firstName": "Zoie",
       "lastName": "Grant",
-      "email": "Efrain_Gaylord6@yahoo.com",
+      "email": "Zoie_Gaylord6@yahoo.com",
       "jobTitle": "Corporate Branding Representative",
       "twitter": "ZoieGrant05512-2019",
       "avatarUrl": "https://www.gravatar.com/avatar/0fc6d5ee2ee176d4581acf6a7e5644cc?d=identicon"
@@ -12,7 +12,7 @@
     {
       "id": "22330587-c700-4d00-911d-91de63db1f42",
       "firstName": "Dustin",
-      "lastName": "Stehr",
+      "lastName": "Stark",
       "email": "Lue.Funk@hotmail.com",
       "jobTitle": "Legacy Infrastructure Consultant",
       "twitter": "DustinStehr77585-9157",
@@ -49,7 +49,7 @@
       "firstName": "Carlos",
       "lastName": "Fuentes",
       "email": "fuentesc91@gmail.com",
-      "jobTitle": "La mera verga",
+      "jobTitle": "Engiennier",
       "twitter": "fuentesc91",
       "id": "W6wHjrh"
     },
@@ -68,6 +68,14 @@
       "jobTitle": "Teacher on Platzi",
       "twitter": "spartacoose",
       "id": "laHbhQd"
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Loza",
+      "email": "ab.lo@hotmail.com",
+      "jobTitle": "TSUPD",
+      "twitter": "andrealoza_lml",
+      "id": "wmR0mNo"
     }
   ]
 }
